@@ -1,6 +1,6 @@
 #include "NeuralNetwork.h"
 
-char* FILE_NAME = "pima-indians-diabetes.csv"; // COMPAS
+char* FILE_NAME = "pima-indians-diabetes.csv";  
 
 //Split training and testing
 double training_data[NUM_TRAIN][NUM_FEATURES];
