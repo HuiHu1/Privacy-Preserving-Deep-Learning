@@ -10,20 +10,20 @@
 #define DEBUG_MODE 0 // when 1, prints debug info to stdout
 
 // Set Global vars
-#define MAX_EPOCHS 100 //hypaperameter
-#define BATCH_SIZE 10  //hypaperameter
+#define MAX_EPOCHS 100  
+#define BATCH_SIZE 10   
 #define NUM_FEATURES 6
 #define NUM_SAMPLES 713
 #define NUM_HIDDEN_LAYERS 2    
-#define NUM_HIDDEN_NODES 10 //10 or 8  //hypaperameter
+#define NUM_HIDDEN_NODES 10    
 #define NUM_OUTPUT_NODES  1   
 #define NUM_CLASSES  2
-#define LEARNING_RATE 0.025  //hypaperameter
+#define LEARNING_RATE 0.025   
 #define BIAS 0.75  //hypaperameter
 #define MAX_NUM_MODEL 2
 
-#define MAX_THRESHOLD 5 // For weight initialization  //hypaperameter
-#define MIN_THRESHOLD -5  //hypaperameter
+#define MAX_THRESHOLD 5 // For weight initialization   
+#define MIN_THRESHOLD -5   
 
 #define NUM_TRAIN 535 //75%
 #define NUM_TEST 178  //25%
