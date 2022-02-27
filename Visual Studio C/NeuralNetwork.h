@@ -22,8 +22,8 @@
 #define BIAS 0.75  //hypaperameter
 #define MAX_NUM_MODEL 2
 
-#define MAX_THRESHOLD 5 // For weight initialization   
-#define MIN_THRESHOLD -5   
+#define MAX_THRESHOLD 1 // For weight initialization   
+#define MIN_THRESHOLD -1   
 
 #define NUM_TRAIN 535 //75%
 #define NUM_TEST 178  //25%
