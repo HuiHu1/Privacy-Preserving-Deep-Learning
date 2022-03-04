@@ -1,3 +1,5 @@
-C implementation of "Robust Privacy-Preserving Deep Neural Networks under Side Channel Power Attacks".
+C implementation of "Robust Privacy-Preserving Deep Neural Networks under Side Channel Power Attacks" (updating).
 
-Updating.....
+### Requirements
+
+ChipWhisperer Lite 1200, XMEGA target board, Jupyter Notebook.
