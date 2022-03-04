@@ -2,4 +2,4 @@ C implementation of "Robust Privacy-Preserving Deep Neural Networks under Side C
 
 ### Requirements
 
-ChipWhisperer Lite 1200, XMEGA target board, Jupyter Notebook.
+ChipWhisperer Lite 1200, XMEGA Target Board, Jupyter Notebook.
