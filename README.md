@@ -8,3 +8,38 @@ To solve this pressing privacy issue, in this paper, we propose a novel approach
 ### Requirements
 
 ChipWhisperer Lite 1200, XMEGA Target Board, Jupyter Notebook.
+
+### Run the code
+
+```
+Step 1: Get the VM and Jupyter up and running.
+
+(1) Download the latest version of VirtualBox (Link: https://www.virtualbox.org/wiki/Downloads).
+(2) Download/Install the extension pack (Link: https://download.virtualbox.org/virtualbox/6.1.18/). 
+(3) Download the current ChipWhisperer VM (Link: https://github.com/newaetech/chipwhisperer/releases/). 
+(4) Download 7Zip (Link: https://www.7-zip.org/download.html). 
+(5) UnZip the VM you just downloaded.
+(6) Launch Virtualbox > Machine > Add... > Select File you just unzipped.
+(7) Start/Run the virtual machine and login.
+(8) Setup a password for Jupyter.
+(9) Reboot the VM. sudo reboot and open Firefox/Chrome (ONLY) - navigate to 127.0.0.1:8888 or localhost:8888.
+
+Step 2: Target board setup (SCOPETYPE = 'OPENADC'  PLATFORM = 'CWLITEXMEGA'  SS_VER='SS_VER_1_1').
+
+Step 3: %run /home/vagrant/work/projects/chipwhisperer/jupyter/Setup_Scripts/Setup_Generic.ipynb.
+
+Step 4: Compile program to run on board. 
+PATH = "/home/vagrant/work/projects/chipwhisperer/hardware/victims/firmware/"
+TARGET_MODEL = "PP_DNN" 
+%%bash -s "$PLATFORM" "$PATH" "$TARGET_MODEL" "$SS_VER"
+cd $2$3 
+make PLATFORM=$1 CRYPTO_TARGET=NONE SS_VER=$4
+
+Step 5: Pass data from Jupyter Notebook to the target board.
+
+Step 6: Run model and collect power traces.
+```
+### Citation
+```
+Update later
+```
