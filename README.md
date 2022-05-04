@@ -1,4 +1,4 @@
-C implementation of "Robust Privacy-Preserving Deep Neural Networks under Side Channel Power Attacks" (updating).
+C implementation of "Training Privacy-Preserving Deep Neural Networks under Side Channel Power Attacks".
 
 ### Requirements
 
