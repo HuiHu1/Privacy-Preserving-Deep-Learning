@@ -1,4 +1,4 @@
-C implementation of "Training Privacy-Preserving Deep Neural Networks under Side-channel Power Attacks".
+C implementation of "Training Privacy-Preserving Deep Neural Networks under Side-Channel Power Attacks".
 
 ### Abstract
 Privacy in deep learning is receiving tremendous attention with its wide applications in industry and academics. Recent studies have shown a traditional deep neural network is extremely vulnerable to side-channel attacks due to the static internal structure in the training process. In particular, side-channel power attacks are powerful to infer the internal structure of a deep neural network such that users' extremely sensitive predictions can be exposed severely. 
