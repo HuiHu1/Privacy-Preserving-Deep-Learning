@@ -7,7 +7,7 @@ To solve this pressing privacy issue, in this paper, we propose a novel approach
 
 ### Requirements
 
-ChipWhisperer Lite 1200, XMEGA Target Board, Jupyter Notebook.
+ChipWhisperer Lite 1200, XMEGA Target Board, Visual Studio Code, Jupyter Notebook.
 
 ### Run the code
 
