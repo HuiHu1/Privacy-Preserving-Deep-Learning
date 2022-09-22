@@ -1,4 +1,3 @@
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 C implementation of "Training Privacy-Preserving Deep Neural Networks under Side-Channel Power Attacks".
 
 ### Abstract
