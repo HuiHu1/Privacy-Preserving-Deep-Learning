@@ -1,7 +1,7 @@
 C implementation of "Training Privacy-Preserving Deep Neural Networks under Side-Channel Power Attacks".
 
 ### Abstract
-Privacy in deep learning is receiving tremendous attention with its wide applications in industry and academics. Recent studies have shown the internal structure of a deep neural network is easily inferred via side-channel power attacks in the training process. To address this pressing privacy issue, we propose TP$^2$NET, a novel solution for training privacy-preserving deep neural networks under side-channel power attacks. The main idea of TP$^2$NET is to introduce randomness into the internal structure of a deep neural network and the training process. Specifically, the workflow of TP$^2$NET includes three steps: First, Independent Sub-network Construction, which generates multiple independent sub-networks via randomly selecting nodes in each hidden layer. Second, Sub-network Random Training, which randomly trains multiple sub-networks such that power traces keep random in the temporal domain. Third, Prediction, which outputs the predictions made by the most accurate sub-network to achieve high classification performance. The performance of TP$^2$NET is evaluated under side-channel power attacks. The experimental results on two benchmark datasets demonstrate that TP$^2$NET decreases the inference accuracy on the number of hidden nodes by at least 38.07\% while maintaining competitive classification accuracy compared with traditional DNNs. Finally, we also theoretically analyze the power consumption of TP$^2$NET.
+Privacy in deep learning is receiving tremendous attention with its wide applications in industry and academics. Recent studies have shown the internal structure of a deep neural network is easily inferred via side-channel power attacks in the training process. To address this pressing privacy issue, we propose TP-NET, a novel solution for training privacy-preserving deep neural networks under side-channel power attacks. The main idea of TP-NET is to introduce randomness into the internal structure of a deep neural network and the training process. Specifically, the workflow of TP-NET includes three steps: First, Independent Sub-network Construction, which generates multiple independent sub-networks via randomly selecting nodes in each hidden layer. Second, Sub-network Random Training, which randomly trains multiple sub-networks such that power traces keep random in the temporal domain. Third, Prediction, which outputs the predictions made by the most accurate sub-network to achieve high classification performance. The performance of TP-NET is evaluated under side-channel power attacks. The experimental results on two benchmark datasets demonstrate that TP-NET decreases the inference accuracy on the number of hidden nodes by at least 38.07\% while maintaining competitive classification accuracy compared with traditional DNNs. Finally, we also theoretically analyze the power consumption of TP-NET.
 
 ### Requirements
 
@@ -28,7 +28,7 @@ Step 3: %run /home/vagrant/work/projects/chipwhisperer/jupyter/Setup_Scripts/Set
 
 Step 4: Compile program to run on board. 
 PATH = "/home/vagrant/work/projects/chipwhisperer/hardware/victims/firmware/"
-TARGET_MODEL = "PP_DNN" 
+TARGET_MODEL = "TP-NET" 
 %%bash -s "$PLATFORM" "$PATH" "$TARGET_MODEL" "$SS_VER"
 cd $2$3 
 make PLATFORM=$1 CRYPTO_TARGET=NONE SS_VER=$4
