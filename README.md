@@ -37,3 +37,7 @@ Step 5: Pass data from Jupyter Notebook to the target board.
 
 Step 6: Run model and collect power traces.
 ```
+### Citation
+```
+Update later
+```
