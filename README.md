@@ -6,7 +6,7 @@ Privacy in deep learning is receiving tremendous attention with its wide applica
 ### Framework
 
 ![alt text](https://github.com/HuiHu1/Proposed-Frameworks/Side-Channel-Framework.pdf)
-![image search api](https://github.com/HuiHu1/Proposed-Frameworks/Side-Channel-Framework.pdf)
+![image search api](https://github.com/HuiHu1/Proposed-Frameworks/Capture.JPG)
 
 ### Requirements
 
