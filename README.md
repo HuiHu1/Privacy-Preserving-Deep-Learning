@@ -1,4 +1,4 @@
-C implementation of "Training Privacy-Preserving Deep Neural Networks under Side-Channel Power Attacks".
+C and Python implementation of the paper "Stealing Model Parameters via Side Channel Power Attacks" (ISVLSI-2021)[[Link]](https://ieeexplore.ieee.org/document/9516772), and the paper "Training Privacy-Preserving Deep Neural Networks under Side-Channel Power Attacks".
 
 ### Abstract
 Privacy in deep learning is receiving tremendous attention with its wide applications in industry and academics. Recent studies have shown the internal structure of a deep neural network is easily inferred via side-channel power attacks in the training process. To address this pressing privacy issue, we propose TP-NET, a novel solution for training privacy-preserving deep neural networks under side-channel power attacks. The main idea of TP-NET is to introduce randomness into the internal structure of a deep neural network and the training process. Specifically, the workflow of TP-NET includes three steps: First, Independent Sub-network Construction, which generates multiple independent sub-networks via randomly selecting nodes in each hidden layer. Second, Sub-network Random Training, which randomly trains multiple sub-networks such that power traces keep random in the temporal domain. Third, Prediction, which outputs the predictions made by the most accurate sub-network to achieve high classification performance. The performance of TP-NET is evaluated under side-channel power attacks. The experimental results on two benchmark datasets demonstrate that TP-NET decreases the inference accuracy on the number of hidden nodes by at least 38.07\% while maintaining competitive classification accuracy compared with traditional DNNs. Finally, we also theoretically analyze the power consumption of TP-N
@@ -39,5 +39,14 @@ Step 6: Run the model and collect power traces.
 ```
 ### Citation
 ```
-Update later
+{
+@inproceedings{wolf2021stealing,
+  title={Stealing Machine Learning Parameters via Side Channel Power Attacks},
+  author={Wolf, Shaya and Hu, Hui and Cooley, Rafer and Borowczak, Mike},
+  booktitle={2021 IEEE Computer Society Annual Symposium on VLSI (ISVLSI)},
+  pages={242--247},
+  year={2021},
+  organization={IEEE}
+}, and
+ update later
 ```
