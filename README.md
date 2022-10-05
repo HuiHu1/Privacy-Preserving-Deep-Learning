@@ -47,6 +47,9 @@ Step 6: Run the model and collect power traces.
   pages={242--247},
   year={2021},
   organization={IEEE}
-}, and
- update later
+}, 
+
+and
+
+update later
 ```
