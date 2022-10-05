@@ -48,8 +48,6 @@ Step 6: Run the model and collect power traces.
   year={2021},
   organization={IEEE}
 }, 
-
 and
-
 update later
 ```
