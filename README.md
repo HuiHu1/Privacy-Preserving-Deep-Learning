@@ -1,6 +1,6 @@
 C and Python implementation of privacy-preserving deep learning:
 
-1. "Stealing Model Parameters via Side Channel Power Attacks" (ISVLSI-2021) [[Link]](https://ieeexplore.ieee.org/document/9516772).
+1. "Stealing Model Parameters via Side-Channel Power Attacks" (ISVLSI-2021) [[Link]](https://ieeexplore.ieee.org/document/9516772).
 
 2. "Training Privacy-Preserving Deep Neural Networks under Side-Channel Power Attacks" [Link].
 
