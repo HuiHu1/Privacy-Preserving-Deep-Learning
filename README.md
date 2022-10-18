@@ -1,3 +1,5 @@
+This repository is to explore hardware-based privacy-preserving deep learning.
+
 C and Python implementation of privacy-preserving deep learning:
 
 1. Stealing Model Parameters via Side-Channel Power Attacks (ISVLSI-2021) [[Link]](https://ieeexplore.ieee.org/document/9516772).
