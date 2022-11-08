@@ -43,8 +43,9 @@ Step 5: Pass data from Jupyter Notebook to the target board.
 
 Step 6: Run the model and collect power traces.
 
-Note: [update the firmware on the CW-Lite board](https://wiki.newae.com/Manual_SAM3U_Firmware_Update).
 ```
+Note: [Update the firmware on the CW-Lite board](https://wiki.newae.com/Manual_SAM3U_Firmware_Update).
+
 ### Citation
 ```
 {
