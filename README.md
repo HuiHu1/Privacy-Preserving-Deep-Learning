@@ -15,7 +15,7 @@ Privacy in deep learning is receiving tremendous attention with its wide applica
 
 ChipWhisperer Lite 1200, XMEGA Target Board, Visual Studio Code, Jupyter Notebook.
 
-![]([https://github.com/HuiHu1/Privacy-Preserving-Deep-Learning/blob/main/CW_Lite.JPG])
+![](https://github.com/HuiHu1/Privacy-Preserving-Deep-Learning/blob/main/CW_Lite.JPG)
 
 ### Run the code
 
