@@ -4,7 +4,7 @@ C and Python implementation of privacy-preserving deep learning:
 
 1. Stealing Model Parameters via Side-Channel Power Attacks (ISVLSI 2021) [[Paper]](https://ieeexplore.ieee.org/document/9516772).
 
-2. TP-NET: Training Privacy-Preserving Deep Neural Networks under Side-Channel Power Attacks (IEEE iSES 2022) [[Paper]](https://ieeexplore.ieee.org/abstract/document/10027138).
+2. TP-NET: Training Privacy-Preserving Deep Neural Networks under Side-Channel Power Attacks (IEEE-iSES 2022) [[Paper]](https://ieeexplore.ieee.org/abstract/document/10027138).
 
 3. Robust Privacy-Preserving Deep Learning under Side-Channel Power Attacks (SDM 2022) [Poster].
 
