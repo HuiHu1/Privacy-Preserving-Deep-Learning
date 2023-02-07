@@ -60,5 +60,13 @@ Note: [Update the firmware on the CW-Lite board](https://wiki.newae.com/Manual_S
   organization={IEEE}
 }, 
 and
-update later
+
+@inproceedings{hu2022tp,
+  title={TP-NET: Training Privacy-Preserving Deep Neural Networks under Side-Channel Power Attacks},
+  author={Hu, Hui and Gegax-Randazzo, Jessa and Carper, Clay and Borowczak, Mike},
+  booktitle={2022 IEEE International Symposium on Smart Electronic Systems (iSES)},
+  pages={439--444},
+  year={2022},
+  organization={IEEE}
+}
 ```
